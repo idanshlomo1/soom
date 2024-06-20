@@ -2,11 +2,11 @@ import React, { ReactNode } from 'react'
 
 const RootLaout = ({ children }: { children: ReactNode }) => {
     return (
-        <div>
+        <main>
             Navbar
             {children}
             Footer
-        </div>
+        </main>
     )
 }
 
